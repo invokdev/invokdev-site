@@ -12,6 +12,11 @@ body{
     font-size: 32px;
 }
 
+h1 {
+    color: blue;
+    font-size: 32px;
+}
+
 h2 {
     color: blue;
     font-size: 28px;
@@ -29,4 +34,19 @@ h3 {
     padding: 10px;
     margin: 10px;
     text-align: center;
+}
+.main-content p {
+    margin: 15px 150px;
+}
+
+#dev-pic {
+    width: 500px;
+    height 500px;
+    justify-content: center;
+    display: inline;
+}
+
+#dev-pic img {
+    border: 2px solid blue;
+    border-radius: 25px;
 }
