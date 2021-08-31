@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Java Testing</title>
+    </head> 
+    <body>
+        <button id='secretMessage'>Just a Trial run</button>
+    </body>
+</html>
+<script src="./button-magic.js">
+
+    $(document).ready(() => {
+        const $menuButton = $('.menu-button');
+        const $navDropdown = $('#nav-dropdown');
+
+        $menuButton.on('click', () => {
+            $navDropdown.toggle();
+            }) //.show() 
+
+/* $navDropdown.on('mouseleave', () => {
+    $navDropdown.hide();
+    }} */
+}) 
+
+</script>
+
