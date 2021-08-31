@@ -6,3 +6,6 @@ function changing() {
         image.src = "./resources/images/develope.png";
     }
 }
+
+let day = new Date();
+document.body.innerHTML = "<h2>Today's date is: " + day + "</h2>"
